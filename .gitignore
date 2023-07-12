@@ -1,12 +1,4 @@
-__pycache__
-*.pyc
-*$py.class
-/build
-/dist
-*.egg-info
-wolframclient/tests/local_config.json
-/htmlcov
-.coverage
-.vscode
-*.code-workspace
-.DS_Store
+**/__pycache__/
+**/env/
+*/.*.swp
+*/.*.swo
