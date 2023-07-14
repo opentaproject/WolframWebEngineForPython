@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m wolframwebengine  --port 8000 --domain 0.0.0.0 --poolsize 4 /Users/ostlund/WWW/wolfram/app
+python3 -m wolframwebengine  --port 8090 --domain 0.0.0.0 --poolsize 4 /Users/ostlund/WWW/wolfram/app/json

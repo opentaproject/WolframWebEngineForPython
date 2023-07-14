@@ -1,1 +1,1 @@
-FormFunction[{"In" -> "String" } ,  ToString[ ToExpression[ Clear["Global`*"] ;  #In]  , InputForm ] &  , "JSON" ]
+FormFunction[{"In" -> "String" } ,  ToString[  Clear["Global`*"] ; Import["opentaMath.m"];   opentaMath[ #In   ]   , InputForm ] &  , "JSON" ]
